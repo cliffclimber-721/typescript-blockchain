@@ -2,7 +2,7 @@ type Age = number; // 타입 지정 가능
 type Name = string;
 type Player = {
     name: Name,
-    age?: Age
+    age?: Age // undefined
 } // 한 타입에 대해 지정해주고 지정한 값은 변수나 함수에 지정 가능
 
 const player_cho : Player = {
